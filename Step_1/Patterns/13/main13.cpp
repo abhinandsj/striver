@@ -1,8 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void pattern(int n){
-    
+void pattern(int );
+
+int main(){
+    int n;
+    cout<<"Enter number: ";
+    cin>>n;
+    pattern(n);
+
+    return 0;
+}
+
+void pattern(int n){ 
     int i, j, count;
     count= 0;
 
@@ -14,11 +24,3 @@ void pattern(int n){
     }   
 }
 
-int main(){
-    int n;
-    cout<<"Enter number: ";
-    cin>>n;
-    pattern(n);
-
-    return 0;
-}
